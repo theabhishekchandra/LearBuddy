@@ -13,10 +13,11 @@
         android:theme="@style/Theme.LearnBuddy"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.screens.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.LearnBuddy">
+            android:theme="@style/Theme.LearnBuddy"
+            tools:ignore="RedundantLabel">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
